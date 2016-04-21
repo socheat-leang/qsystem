@@ -12,7 +12,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class TestingController {
-	@RequestMapping(value = { "/", "/welcome**" }, method = RequestMethod.GET)
+	@RequestMapping(value = { "/admin/welcome**" }, method = RequestMethod.GET)
 	public ModelAndView defaultPage() {
 
 	  ModelAndView model = new ModelAndView();
