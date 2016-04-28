@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Built-By: Socheat
-Build-Jdk: 1.8.0_51
+Built-By: Leang Socheat
+Build-Jdk: 1.8.0_66
 Created-By: Maven Integration for Eclipse
 
