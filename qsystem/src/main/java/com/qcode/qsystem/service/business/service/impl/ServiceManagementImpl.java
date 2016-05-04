@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.qcode.qsystem.service.business.service.ServiceManagement;
+import com.qcode.qsystem.service.common.entity.ServiceEntity;
 import com.qcode.qsystem.service.dataaccess.dao.ServiceDAO;
 @Service
 public class ServiceManagementImpl implements ServiceManagement{
@@ -13,7 +14,7 @@ public class ServiceManagementImpl implements ServiceManagement{
     ServiceDAO serviceDAO;
 	
 	@Override
-	public List<Integer> getAllService() {
+	public List<ServiceEntity> getAllService() {
 		return getServiceDAO().selectAll();
 	}
 

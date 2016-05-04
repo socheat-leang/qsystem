@@ -1,6 +1,12 @@
 package com.qcode.qsystem.service.common.entity;
 
-public class ServiceEntity {
+import java.io.Serializable;
+
+public class ServiceEntity implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7037221548077779731L;
 	/*id of service*/
 	private int id;
 	/*brand code*/ 
@@ -16,7 +22,7 @@ public class ServiceEntity {
 	/*image*/
 	private byte[] img;
 	/*shortcut*/
-	private int shortcut;
+	private String shortcut;
 	public int getId() {
 		return id;
 	}
@@ -59,10 +65,10 @@ public class ServiceEntity {
 	public void setImg(byte[] img) {
 		this.img = img;
 	}
-	public int getShortcut() {
+	public String getShortcut() {
 		return shortcut;
 	}
-	public void setShortcut(int shortcut) {
+	public void setShortcut(String shortcut) {
 		this.shortcut = shortcut;
 	}
 	

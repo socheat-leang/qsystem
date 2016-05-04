@@ -20,5 +20,7 @@
   	</settings>
   	<mappers>
   		<mapper resource="service-mapper.xml"></mapper>
+  		<mapper resource="teller-mapper.xml"></mapper>
+  		<mapper resource="transaction-mapper.xml"></mapper>
   	</mappers>
   </configuration>
